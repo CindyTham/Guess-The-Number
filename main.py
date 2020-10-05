@@ -2,7 +2,7 @@ from random import randint
 
 guess_number = randint(0, 20)
 tries = 6
-print ('Lets play a game of guess the number. What is your name?')
+print ('Lets play a game of guess the number, the number is between 1 and 20. Tell me your name?')
 name = input ('')
 print ('Lets Go ' + name)
 
